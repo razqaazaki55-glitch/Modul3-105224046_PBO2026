@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
         "src",
-        "PreTest"
+        "PreTest",
+        "Latihan/Latihan",
+        "Latihan"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
