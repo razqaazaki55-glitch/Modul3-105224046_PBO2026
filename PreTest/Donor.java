@@ -22,7 +22,7 @@ public class Donor {
                 if (kadarHemoglobin >= 12.5) {
                     System.out.println("Kadar hemoglobin memenuhi syarat dan Anda diperbolehkan donor darah.");
                 } else {
-                    System.out.println("Kadar hemoglobin tidak memenuhi syarat. Anda tidak diperbolehkan donor darah.");
+                    System.out.println("Kadar hemoglobin tidak memenuhi syarat, dan Anda tidak diperbolehkan donor darah.");
                 }
 
             } else {
