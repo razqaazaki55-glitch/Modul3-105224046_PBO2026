@@ -16,17 +16,17 @@ public class Donor {
         if (usia >= 17) {
             System.out.println("Usia memenuhi syarat.");
 
-            if (beratBadan >= 50) {
+            if (beratBadan >= 45) {
                 System.out.println("Berat badan memenuhi syarat.");
 
-                if (kadarHemoglobin >= 17.5) {
+                if (kadarHemoglobin >= 12.5) {
                     System.out.println("Kadar hemoglobin memenuhi syarat dan Anda diperbolehkan donor darah.");
                 } else {
-                    System.out.println("Kadar hemoglobin tidak memenuhi syarat, dan Anda tidak diperbolehkan donor darah karena kadar hemoglobin Anda di bawah 17.5 g/dl.");
+                    System.out.println("Kadar hemoglobin tidak memenuhi syarat, dan Anda tidak diperbolehkan donor darah karena kadar hemoglobin Anda di bawah 12.5 g/dl.");
                 }
 
             } else {
-                System.out.println("Berat badan tidak memenuhi syarat. Berat badan minimal 50 kg.");
+                System.out.println("Berat badan tidak memenuhi syarat. Berat badan minimal 45 kg.");
             }
 
         } else {
