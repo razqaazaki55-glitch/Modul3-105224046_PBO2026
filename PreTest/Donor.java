@@ -19,10 +19,10 @@ public class Donor {
             if (beratBadan >= 50) {
                 System.out.println("Berat badan memenuhi syarat.");
 
-                if (kadarHemoglobin >= 12.5) {
+                if (kadarHemoglobin >= 17.5) {
                     System.out.println("Kadar hemoglobin memenuhi syarat dan Anda diperbolehkan donor darah.");
                 } else {
-                    System.out.println("Kadar hemoglobin tidak memenuhi syarat, dan Anda tidak diperbolehkan donor darah.");
+                    System.out.println("Kadar hemoglobin tidak memenuhi syarat, dan Anda tidak diperbolehkan donor darah karena kadar hemoglobin Anda di bawah 17.5 g/dl.");
                 }
 
             } else {
@@ -30,7 +30,7 @@ public class Donor {
             }
 
         } else {
-            System.out.println("Usia kurang dari 17 tahun, tidak diperbolehkan donor darah.");
+            System.out.println("Usia kurang dari 17 tahun tidak diperbolehkan donor darah minimal 17 tahun.");
         }
 
         input.close();
