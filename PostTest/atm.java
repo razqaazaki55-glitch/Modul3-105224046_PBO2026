@@ -42,7 +42,6 @@ public class atm {
                         System.out.println("Saldo tidak mencukupi.");
                     } 
                     else if (sisaSaldo < 50000) {
-                        System.out.println("Penarikan dibatalkan.");
                         System.out.println("Saldo minimal harus Rp 50000.");
                     } 
                     else {
